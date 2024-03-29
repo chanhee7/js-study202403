@@ -1,5 +1,4 @@
 // x부터 y까지의 누적합을 구해야 함
-
 function calcRangeTotal(x, y) {
   var total = 0;
   for (var i = x; i <= y; i++) {
