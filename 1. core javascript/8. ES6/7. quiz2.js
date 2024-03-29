@@ -111,6 +111,10 @@ function every() {
 
 // 최소 salary, 최소 age
 function min(userList, n) {
+  // userList가 비어있으면 null 반환
+  if (userList.length === 0) {
+    return null;
+  }
 
   let mini = userList[0];
   for (const user of userList) {
